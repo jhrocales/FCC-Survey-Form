@@ -35,9 +35,12 @@ label, legend {
 }
 
 body {
-   background: linear-gradient(to right, #5C1B33 0%, #030303 50%, #261887 100%); 
+   background: radial-gradient(circle at 25% center, #5C1B33, transparent 85%), 
+                radial-gradient(circle at 75% center, #2618A7, transparent 80%);
+    background-color: #000000; 
+    height: 100vh;
+    margin: 0;
 }
- 
 
 fieldset {
    border: none;
@@ -50,7 +53,7 @@ fieldset {
    width: 70%;
    max-width: 500px;
    margin: auto;
-   background-color: rgba(54, 48, 60, 0.95); 
+   background-color: rgba(54, 48, 60, 0.7); 
    padding: 30px 45px;
 }
 
